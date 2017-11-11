@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     background-image: url('./scott-webb-195100.jpg');
     height: 100%; 
     background-attachment: fixed;
@@ -14,7 +14,7 @@ body {
     font-family: 'Space Mono', monospace;
 }
 .content-main {
-    background-color: white;
+    background-color: rgb(34, 34, 34);
     width: 100vw;
     height: 1100px;
     display: flex;
@@ -25,6 +25,7 @@ body {
 	align-content: stretch;
 }
 .projects-main {
+    background-color: white;
     border: 1px solid black;
     width: 80%;
     height: 80%;
@@ -35,8 +36,95 @@ body {
 	align-items: center;
 	align-content: space-around;
 }
-.each-project {
+.project-1 {
+    background-image: url('./Screen Shot 2017-11-10 at 11.33.45 PM.png');
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 280px;
     width: 280px;
     border: 1px solid black;
+    cursor: pointer;
+}
+.project-2 {
+    background-image: url('./Screen Shot 2017-11-10 at 10.35.53 PM.png');
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+    width: 280px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.project-3 {
+    background-image: url('./Screen Shot 2017-11-10 at 1.45.17 PM.png');
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+    width: 280px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.project-4 {
+    background-image: url('./Screen Shot 2017-11-10 at 10.33.19 PM.png');
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+    width: 280px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.project-5 {
+    /* background-image: url('./'); */
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+    width: 280px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.project-6 {
+    /* background-image: url('./'); */
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+    width: 280px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.project-7 {
+    /* background-image: url('./'); */
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+    width: 280px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.project-8 {
+    /* background-image: url('./'); */
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+    width: 280px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.footer-nav-parent {
+    height: 200px;
+    width: 80%;
 }
