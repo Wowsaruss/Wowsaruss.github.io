@@ -29,6 +29,30 @@ body {
     margin-left: 50px;
     text-align: center;
 }
+.program-icons-parent {
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+}
+.icon-size-height {
+    height: 100px;
+    width: auto;
+    /* border: 2px solid black; */
+}
+.icon-size-width {
+    width: 100px;
+    height: auto;
+    /* border: 2px solid black; */
+}
+.icon-padding {
+    padding-bottom: 15px;
+}
 .projects-parent {
     background-color: rgba(34, 34, 34, 0.838);
     width: 100vw;
@@ -149,6 +173,11 @@ body {
     cursor: pointer;
 }
 .footer-nav-parent {
-    height: 200px;
+    height: 150px;
     width: 80%;
+}
+.social-size {
+    height: 40px;
+    width: auto;
+    cursor: pointer;
 }
