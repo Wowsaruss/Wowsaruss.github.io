@@ -54,7 +54,7 @@ body {
     padding-bottom: 15px;
 }
 .projects-parent {
-    background-color: rgba(34, 34, 34, 0.838);
+    background-color: rgb(29, 29, 29);
     width: 100vw;
     height: 1100px;
     display: flex;
@@ -172,12 +172,31 @@ body {
     /* border: 1px solid black; */
     cursor: pointer;
 }
+.footer-position {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
 .footer-nav-parent {
     height: 150px;
-    width: 80%;
+    width: 60%;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
 }
 .social-size {
     height: 40px;
     width: auto;
     cursor: pointer;
+}
+.copyright {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.838);
+    color: white;
 }
